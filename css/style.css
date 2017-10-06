@@ -1,0 +1,287 @@
+@charset 'UTF-8';
+html,
+body,
+ul,
+li,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Microsoft Yahei", "Arail", "sans-seri";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.border {
+  border: 2px dotted #fff;
+}
+.glasses-system {
+  width: 80%;
+  height: 80%;
+  min-width: 600px;
+  border: 5px solid #e89c89b3;
+  margin: 5% auto;
+  position: relative;
+  overflow: hidden;
+}
+.glasses-system .preview {
+  height: 100%;
+  width: 50%;
+  border: 2px #e0c390 solid;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  background-color: #2e2e2e;
+  overflow: hidden;
+  position: absolute;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.glasses-system .preview .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.glasses-system .preview .preview-pic {
+  display: block;
+  margin: 16px auto;
+}
+.glasses-system .preview .translate {
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  line-height: 1.5rem;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 2.4rem;
+}
+.glasses-system .preview .horizontal:before {
+  content: "左移";
+}
+.glasses-system .preview .horizontal:after {
+  content: "右移";
+}
+.glasses-system .preview .vertical {
+  transform-origin: 0% 100%;
+  transform: rotate(90deg) translateX(-100%);
+}
+.glasses-system .preview .vertical:before {
+  content: "上移";
+}
+.glasses-system .preview .vertical:after {
+  content: "下移";
+}
+.glasses-system .btns {
+  width: 50%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  z-index: 3;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.glasses-system .btns .btn {
+  display: inline-block;
+  color: #fff;
+  width: 8rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #090;
+  transition: all 0.15s ease-out;
+  box-shadow: -1px -1px 2px 1px rgba(0,0,0,0.4) inset;
+  cursor: pointer;
+}
+.glasses-system .btns .btn:hover {
+  background-color: #060;
+  color: #eee;
+}
+.glasses-system .btns .btn +.btn {
+  margin-left: 15px;
+}
+.glasses-system .goods {
+  width: 50%;
+  height: 100%;
+  background-color: #f8ecd2;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.glasses-system .goods .goods-list {
+  width: 200%;
+  height: 100%;
+  padding-top: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 0.8s ease-in-out;
+}
+.glasses-system .goods .goods-list .page {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  overflow: auto;
+  float: left;
+}
+.glasses {
+  display: inline-block;
+  width: 142.02px;
+  height: 66.60000000000001px;
+  background-color: #fff;
+  margin: 5px 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+.glasses:hover {
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+}
+.glasses_1 {
+  background-image: url("../imgs/glasses_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_2 {
+  background-image: url("../imgs/glasses_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_3 {
+  background-image: url("../imgs/glasses_3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_4 {
+  background-image: url("../imgs/glasses_4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_5 {
+  background-image: url("../imgs/glasses_5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_6 {
+  background-image: url("../imgs/glasses_6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_7 {
+  background-image: url("../imgs/glasses_7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_8 {
+  background-image: url("../imgs/glasses_8.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_9 {
+  background-image: url("../imgs/glasses_9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_10 {
+  background-image: url("../imgs/glasses_10.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_11 {
+  background-image: url("../imgs/glasses_11.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_12 {
+  background-image: url("../imgs/glasses_12.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_13 {
+  background-image: url("../imgs/glasses_13.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_14 {
+  background-image: url("../imgs/glasses_14.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_15 {
+  background-image: url("../imgs/glasses_15.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_16 {
+  background-image: url("../imgs/glasses_16.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_17 {
+  background-image: url("../imgs/glasses_17.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_18 {
+  background-image: url("../imgs/glasses_18.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_19 {
+  background-image: url("../imgs/glasses_19.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_20 {
+  background-image: url("../imgs/glasses_20.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.glasses_21 {
+  background-image: url("../imgs/glasses_21.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.pageGroup {
+  width: 50%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.pageGroup .pageBtn {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #dce3e2;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.pageGroup .active {
+  background-color: #899499;
+}
+.adjustment {
+  width: 157.8px;
+  height: 74px;
+  cursor: move;
+  resize: both;
+  overflow: auto;
+}
+.arrow {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  cursor: url("../imgs/rotate.png"), auto;
+}

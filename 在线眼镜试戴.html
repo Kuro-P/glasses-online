@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>在线眼镜试戴</title>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+</head>
+<body>
+    <div class="glasses-system">
+        <div class="preview" unselectable=on>
+            <img src="imgs/model.jpg" alt="图片" class="preview-pic" id="preview-pic">
+            <div class="mask"></div>
+            <div class="vertical translate">
+                <input type="range" class="change-top" value=50 max=100>
+            </div>
+            <div class="horizontal translate">
+                <input type="range" class="change-left" value=50 max=100 >
+            </div>
+        </div>
+        <div class="btns">
+            <label class="btn" id="model">模特试戴</label>
+            <label for="upload" class="btn" >上传本地照片</label>
+            <input type="file" id='upload' value="上传" style="display:none">
+        </div>
+        <div class="goods">
+            <div class="goods-list">
+                <ul class="page page_1">
+                    <li class="glasses glasses_1"></li>
+                    <li class="glasses glasses_2"></li>
+                    <li class="glasses glasses_3"></li>
+                    <li class="glasses glasses_4"></li>
+                    <li class="glasses glasses_5"></li>
+                    <li class="glasses glasses_6"></li>
+                    <li class="glasses glasses_7"></li>
+                    <li class="glasses glasses_8"></li>
+                    <li class="glasses glasses_9"></li>
+                    <li class="glasses glasses_10"></li>
+                    <li class="glasses glasses_11"></li>
+                    <li class="glasses glasses_12"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="pageGroup">
+            <span class="pageBtn active"></span>
+            <span class="pageBtn"></span>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/main.js">
+    </script>
+</body>
+</html>

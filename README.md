@@ -7,7 +7,7 @@
    * 用户可自行调整镜框位置、大小、角度
    * 用户可自行调整已上传的图片在预览区域中的位置
 
-   ![product](https://github.com/Kuro-P/glasses-online/blob/master/previewImg/mine.gif
+   ![product](https://github.com/Kuro-P/glasses-online/blob/master/preview/upload.gif
  "效果图")
 
 ## 一些优化
@@ -19,5 +19,5 @@
 ## 预览
 预览地址：https://kuro-p.github.io/glasses-online/index.html
 
- ![resize](https://github.com/Kuro-P/glasses-online/blob/master/previewImg/resize.gif
+ ![resize](https://github.com/Kuro-P/glasses-online/blob/master/preview/resize.gif
  "右侧区域变化效果图")
